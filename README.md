@@ -10,8 +10,8 @@ pip install uv
 ```
 2. Clone this repo and navigate to the project directory
 ```bash
-git.clone link_goes_here
-cd 
+git.clone https://github.com/kolahimself/DamDesign.git
+cd DamDesign
 ```
 3. Initialize the project
 ```bash
