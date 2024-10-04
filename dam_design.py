@@ -45,15 +45,15 @@ def prompt_design_params():
     print("Please enter the following design parameters:")
     
     # Collecting design parameters from the user
-    h_max = float(input("Max depth of headwater (m): ") or 45)
-    he = float(input("Distance from spillway crest to MWL (m): ") or 3)
-    top_width = float(input("Width of dam crest (m) : ") or 7.5)
-    gamma_c = float(input("Unit weight of concrete (kN/m³): ") or 22)
-    gamma_w = float(input("Unit weight of water (kN/m³): ") or 10)
+    h_max = float(input("Max depth of headwater (m): "))
+    he = float(input("Distance from spillway crest to MWL (m): "))
+    top_width = float(input("Width of dam crest (m) : "))
+    gamma_c = float(input("Unit weight of concrete (kN/m³): "))
+    gamma_w = float(input("Unit weight of water (kN/m³): "))
     friction_coefficient = float(input("Friction coefficient for sliding checks [default: 0.75]: ") or 0.75)
-    fetch_length = float(input("Fetch length (km): ") or 5)
+    fetch_length = float(input("Fetch length (km): "))
     uplift_factor = float(input("Uplift factor: ") or 0.5)
-    wind_velocity = float(input("Wind velocity (km/h): ") or 128)
+    wind_velocity = float(input("Wind velocity (km/h): "))
 
     # Collecting utility factors from the user
     hw_amplification_factor = float(input("Wave height amplification factor [default: 1.33]: ") or 1.33)
